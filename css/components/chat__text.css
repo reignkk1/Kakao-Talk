@@ -1,0 +1,63 @@
+@keyframes fadeIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.message-row__items > :nth-child(1) {
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 1s;
+}
+.message-row__items > :nth-child(2) {
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 2s;
+}
+.message-row__items > :nth-child(3) {
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 3s;
+}
+.message-row__items > :nth-child(4) {
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 4s;
+}
+.message-row__items > :nth-child(5) {
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 5s;
+}
+.message-row__items > :nth-child(6) {
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 6s;
+}
+.message-row__items > :nth-child(7) {
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 7s;
+}
+
+.message-row__items > :nth-child(8) {
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 8s;
+}
+
+.message-row__items > :nth-child(9) {
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 9s;
+}
+
+.message-row__items > :nth-child(10) {
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 10s;
+}
+
+.message-row__items > :nth-child(11) {
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 11s;
+}
+
+.message-row__items > :nth-child(13) {
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 12s;
+}

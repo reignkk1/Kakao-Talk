@@ -1,0 +1,48 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 25px;
+}
+.header__title {
+  font-size: 35px;
+  font-weight: 500;
+}
+.header__icons span {
+  margin-left: 30px;
+}
+.header__icons {
+  position: relative;
+}
+.header__iconspoint {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  display: flex;
+  position: absolute;
+  border-radius: 3px;
+  left: 75px;
+  bottom: 20px;
+}
+.header__iconspoint__find {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  display: flex;
+  position: absolute;
+  border-radius: 3px;
+  left: 130px;
+  bottom: 20px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotatez(360deg);
+  }
+}
+.screen-header .header__icons .fa-cog {
+  animation: rotateCog 2s linear infinite;
+}
